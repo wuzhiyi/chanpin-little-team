@@ -1,0 +1,29 @@
+body {
+    padding-top: 70px;
+}
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 60px;
+}
+p {
+    font-size: 30px;
+}
+.navtab {
+    padding: 20px;
+}
+.container {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 20px 20px;
+    padding: 20px;
+}
+.card-header {
+    background: red;
+    height: 200px;
+}
+.card-p {
+    display: inline;
+}
