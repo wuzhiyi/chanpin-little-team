@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterplorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <input class="return_button" type="button" onclick="javascript:history.back(-1);" value="返回">
+        <h1 class="header_title">Enterplorer</h1>
+    </header>
+    <!-- <div class="navtab">
+        <h1 class="nav-title">特色功能介绍</h1>
+        <h1 class="nav-title">iOS规范</h1>
+        <h1 class="nav-title">Android规范</h1>
+        <h1 class="nav-title">视频</h1>
+    </div> -->
+    <div id="tab_bar">
+        <ul>
+            <li id="tab1" onclick="myclick(1)" style="background-color: orange">tab1</li>
+            <li id="tab2" onclick="myclick(2)">tab2</li>
+            <li id="tab3" onclick="myclick(3)">tab3</li>
+        </ul>
+        </div>
+        <div class="tab_css" id="tab1_content" style="display: block">
+            <div>
+                <!-- 页面一 -->
+                <a class="cover" href="#"></a>
+            </div>
+        </div>
+        <div class="tab_css" id="tab2_content">
+            <div>页面二</div>
+        </div>
+        <div class="tab_css" id="tab3_content">
+            <div>页面三</div>
+        </div>
+</body>
+</html>
